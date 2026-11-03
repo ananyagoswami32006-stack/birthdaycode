@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#fff0f5">
+<title>30 Reasons Why You’re My Favourite Person, My Babidaa 💌</title>
+<style>
+:root{--pink:#ff6b9a;--rose:#e94f85;--ink:#3c2940;--cream:#fff8fb;--lav:#f2eaff}
+*{box-sizing:border-box}body{margin:0;font-family:ui-rounded,"Trebuchet MS",system-ui,sans-serif;color:var(--ink);background:radial-gradient(circle at top left,#ffe0eb,transparent 40%),linear-gradient(135deg,#fff8fb,#f5efff);min-height:100vh;overflow-x:hidden}
+main{width:min(760px,92%);margin:0 auto;padding:30px 0 55px}.hero{text-align:center;padding:24px 12px 16px}.eyebrow{letter-spacing:.15em;text-transform:uppercase;font-size:.75rem;color:#a65c7b;font-weight:800}.hero h1{font-size:clamp(2.2rem,8vw,4.3rem);line-height:1.02;margin:12px 0;color:#a73568}.hero p{font-size:1.05rem;line-height:1.6;max-width:520px;margin:12px auto}.heart{display:inline-block;animation:pulse 1.4s infinite}@keyframes pulse{50%{transform:scale(1.2)}}
+.card{background:#ffffffd9;border:1px solid #ffffff;box-shadow:0 18px 55px #9f5c7b1c;border-radius:26px;padding:clamp(18px,5vw,32px);margin:18px 0;backdrop-filter:blur(8px)}
+.countdown{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:22px 0}.timebox{background:var(--lav);border-radius:16px;padding:14px 5px;text-align:center}.timebox strong{display:block;font-size:clamp(1.5rem,5vw,2.4rem);color:#8d4db1}.timebox span{font-size:.72rem;text-transform:uppercase;letter-spacing:.08em}
+.progress-wrap{height:9px;background:#f3dce8;border-radius:99px;overflow:hidden}.progress{height:100%;width:0;background:linear-gradient(90deg,#ff83aa,#b18cff);transition:width .5s}.small{font-size:.88rem;color:#8b6c82}.day-head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}.day-head h2{margin:0;font-size:1.35rem}.pill{background:#ffe5ef;color:#a73568;padding:7px 12px;border-radius:99px;font-size:.82rem;font-weight:800}
+.message-box{min-height:185px;display:flex;flex-direction:column;justify-content:center;text-align:center;padding:22px 8px}.message-box .day-number{font-size:.85rem;color:#b15a84;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.message-box h3{font-size:clamp(1.5rem,5vw,2.2rem);margin:10px 0;color:#a73568}.message-box p{font-size:1.08rem;line-height:1.75;max-width:570px;margin:0 auto;white-space:pre-line}.buttons{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px}button{border:0;border-radius:99px;padding:13px 20px;font:inherit;font-weight:800;cursor:pointer;transition:transform .15s,filter .15s}button:hover{transform:translateY(-2px);filter:brightness(1.03)}button:focus-visible{outline:3px solid #8d4db1;outline-offset:3px}.primary{background:linear-gradient(135deg,#ff6b9a,#e94f85);color:white;box-shadow:0 8px 20px #e94f8533}.secondary{background:#f2eaff;color:#754a91}.days{display:grid;grid-template-columns:repeat(5,1fr);gap:9px;margin-top:18px}.day{padding:12px 4px;border-radius:13px;background:#f7f0fb;color:#9a86a5;font-size:.9rem;cursor:pointer}.day.unlocked{background:#ffe5ef;color:#a73568;font-weight:bold}.day.current{outline:2px solid #e94f85;outline-offset:1px}.day:disabled{cursor:not-allowed;opacity:.65}.note{text-align:center;font-size:.82rem;color:#987b91;line-height:1.6}.footer{text-align:center;padding:12px;font-size:.9rem;color:#987b91}
+.confetti{position:fixed;top:-12px;width:9px;height:14px;opacity:.9;pointer-events:none;z-index:10;animation:fall linear forwards}@keyframes fall{to{transform:translateY(110vh) rotate(720deg);opacity:.1}}
+@media(max-width:480px){main{padding-top:15px;width:94%}.message-box{padding:18px 4px}.message-box p{font-size:1rem;line-height:1.65}.hero h1{overflow-wrap:anywhere}.buttons button{width:100%;max-width:320px}.countdown{gap:6px}.timebox{padding:11px 2px}.days{grid-template-columns:repeat(5,1fr);gap:6px}.day{padding:10px 0;font-size:.82rem}.card{border-radius:20px}.hero p{font-size:.98rem}}
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <div class="eyebrow">For my Badidaa, my Baby, my favourite person</div>
+    <h1>30 Reasons Why You’re My Favourite Person, My Babidaa</h1>
+    <p>For my Cutu—your birthday deserves more than one message. So, starting right now, here’s one little reason you’re my favourite person every day until your big day. Just for you, Babidaa. 💌</p>
+    <p class="small" style="font-weight:800;color:#a73568">From your Gatyo, with all her love ♥</p>
+  </header>
+
+  <section class="card">
+    <div class="day-head"><h2>Until your birthday 🎂</h2><span class="pill">December 4</span></div>
+    <div class="countdown" aria-label="Birthday countdown">
+      <div class="timebox"><strong id="days">--</strong><span>Days</span></div>
+      <div class="timebox"><strong id="hours">--</strong><span>Hours</span></div>
+      <div class="timebox"><strong id="minutes">--</strong><span>Minutes</span></div>
+      <div class="timebox"><strong id="seconds">--</strong><span>Seconds</span></div>
+    </div>
+    <p class="small" id="countdown-caption">Counting down to December 4…</p>
+  </section>
+
+  <section class="card">
+    <div class="day-head"><h2>Your daily dose of appreciation</h2><span class="pill" id="progress-label">0 / 30 opened</span></div>
+    <p class="small">Each note unlocks automatically at midnight (12:00 AM) on its scheduled date, leading up to your birthday letter on December 4. 💗</p>
+    <div class="progress-wrap"><div class="progress" id="progress"></div></div>
+    <div class="message-box" aria-live="polite">
+      <div class="day-number" id="message-day">DAY 1 · NOVEMBER 4</div>
+      <h3 id="message-title">One thing I love about you…</h3>
+      <p id="message-text">Your first little note is waiting.</p>
+    </div>
+    <div class="buttons">
+      <button class="primary" id="open-today">Open today's note 💌</button>
+      <button class="secondary" id="surprise">A little surprise ✨</button>
+    </div>
+    <p class="note" id="status">This page is made with love. Today’s note unlocks at midnight on its scheduled day.</p>
+  </section>
+
+  <section class="card">
+    <div class="day-head"><h2>The little love-note calendar</h2><span class="small">Tap any unlocked day to revisit past notes</span></div>
+    <div class="days" id="days-grid"></div>
+    <p class="note">Each note unlocks at 12:00 AM midnight daily starting Nov 4. Tap any unlocked day number to re-read it! 🎈</p>
+  </section>
+  <div class="footer">Made just for you, with all my heart <span class="heart">♥</span></div>
+</main>
+<script>
+const notes = [
+["Our Instagram beginning","Babidaa, I still love how you slid into my Instagram messages and we connected instantly. There was no awkward phase, no trying too hard—it just felt natural, like we’d known each other forever. How did a random message turn into my favourite person?"],
+["Those brown eyes","Your brown eyes deserve their own appreciation day. I could look into them for ages and still find a new reason to fall for you. And that smile right after? Completely unfair, Cutu."],
+["Your smile is trouble","Your smile has this ridiculous power to change my entire mood. One little smile from you and suddenly my day is brighter, my heart is softer, and I’m smiling at my phone like a fool."],
+["The mimicry expert","I love how you mimic me. You notice the tiniest things I do and then recreate them just to tease me. I act offended, but honestly? It’s one of my favourite things about us."],
+["Our pronunciation universe","Our little pronunciation jokes are proof that we can turn the smallest, most random thing into a whole comedy show. Nobody else would understand half of it—and that makes it even more ours."],
+["The sweatshirt exception","You’re so protective of your things, which is why you giving me your sweatshirt felt extra special. It wasn’t just a sweatshirt; it was one of those little gestures that made me feel loved."],
+["You really hear me","I love how you listen to me properly. You don’t just hear the words—you try to understand what I mean, and you make me feel like what I have to say matters."],
+["My safe place","There’s something about being with you that makes everything feel calmer. Your presence, your hugs, your voice—somehow they make the world feel a little less loud."],
+["Baroda, forever","I’ll always remember that night in Baroda when I had a high fever. You woke up, changed the AC temperature, hugged me, and checked that I was okay. You didn’t make a big show of it; you just cared for me. That night, you felt like the safest place in the world."],
+["You stay until I’m okay","You never just leave me to cry or overthink by myself. You stay, listen, and help me feel understood. I love that you care about how I end my day, not just how it begins."],
+["The 3 AM smile","Even when it’s 3 AM and you’re sleepy, you still make sure I go to bed smiling. That kind of effort is so quietly precious to me. You’re my favourite late-night comfort."],
+["Hug therapy","Your hugs are a whole different kind of comfort. Sometimes I don’t need a solution or a long conversation—I just need to be wrapped up in your arms for a little while."],
+["Our all-night cuddle","That night we cuddled all night lives rent-free in my heart. It was so warm, peaceful, and effortless. I could’ve stayed there forever, tucked into my safest person."],
+["My biggest cheerleader","I love how genuinely you support my career and want to see me grow. You encourage me, make space for my ambitions, and remind me that my dreams matter. That support means everything."],
+["You make me feel heard","With you, I never feel like I have to rush through what I’m feeling. You give me your attention and make sure I know you’re listening. That’s such a beautiful kind of love."],
+["You make time","Even after a tiring day, you make time for me. I notice those little moments when you could just rest, but still choose to check in and be there. I appreciate them more than you know."],
+["The caring side of you","You’re so caring toward the people around you, even when they don’t always notice it. I see the thoughtful things you do, the way you look out for people, and I admire that heart of yours."],
+["Hot, caring, all in one","How did I get someone who is hot, caring, confident, thoughtful, and ridiculously cute all in one package? Babidaa, this combination is honestly unfair. You’re a whole heart-stealing package."],
+["Your teasing talent","You tease me, make me laugh, and somehow turn my mood around without even trying. I can be pretending to be annoyed and still be secretly smiling because it’s you."],
+["Blushing at bedtime","You have this talent for making me go to sleep smiling and blushing. I’ll be trying to act normal, and then you say one thing and there goes my entire composure. Cutu, please explain yourself."],
+["Your Gatyo","I love being your Gatyo. The way you say my nicknames makes them feel like they belong only to us. It’s such a tiny thing, but hearing them from you makes me ridiculously happy."],
+["My Babidaaa","Babidaaa—and Babida, because apparently one extra ‘aa’ is not enough for how cute you are. I love having these silly names for you. They feel like our own little language, just for us."],
+["Doraemon walk, Shinchan talk","According to you, I walk like Doraemon and talk like Shinchan. First of all, excuse me?? Second, I can’t believe you’ve assigned me an entire cartoon personality. Your Doraemon-Shinchan commentary is never getting old. I adore how you notice these tiny things about me and turn them into our own ridiculous little joke."],
+["One brownie becomes two","I love asking you for just one brownie and watching you send two anyway. It’s such a small, sweet thing, but it says so much about you: I ask for one little treat, and you somehow make it twice as special. That’s why you’re my Brownie."],
+["My favourite Brownie","You’re my Brownie—not just because I love calling you that, but because you make ordinary moments feel like little treats. You’re sweet, comforting, and somehow always exactly what I want more of."],
+["The way we just clicked","From that first Instagram message, it felt like we skipped the awkwardness and went straight to being ourselves. I love how easy it is to laugh with you, talk to you, and be completely us."],
+["The little things you remember","You remember the small things, notice my habits, and turn them into jokes or sweet moments later. It makes me feel so known by you—and I love that you pay attention in your own Cutu way."],
+["CA loading…","Future CA Babidaa, I’m so excited to see you achieve everything you’ve been working toward. I know how much this dream means to you, and I’m cheering for you through every step. Your hard work is going to make such a beautiful story."],
+["CA Final manifestation","Consider this your official birthday-month manifestation: focus, confidence, calm, good luck, and a clear mind for your CA Final. May all the positivity you give people return to you multiplied. I’m rooting for you with my whole heart."],
+["Our international trip","Future CA, please remember that your Gatyo is already mentally packed for that international vacation. I can picture us exploring somewhere new, taking too many photos, laughing at our own jokes, and making memories we’ll talk about forever. Manifesting this with you, Brownie."],
+["Happy birthday, my Babidaaa","Happy birthday to my Babidaaa, my Cutu, my Brownie, my favourite person, and my hot-caring-all-in-one package. ❤️\n\nI still can’t believe that one Instagram message brought you into my life. From the very beginning, we clicked in a way that felt so easy and familiar—as if we had been waiting to find each other. You’ve become such a special part of my everyday life: the person who makes me laugh with the tiniest jokes, mimics me just to tease me, makes sure I go to sleep smiling even at 3 AM, and sometimes makes me blush when I least expect it.\n\nI love your brown eyes and your smile. I love your caring heart, your confidence, the way you look after people, and the way you support my dreams and career. I love our nicknames—Gatyo, Babidaaa, Cutu, Brownie—and our ridiculous Doraemon-and-Shinchan conversations. I love that I can ask you for one brownie and you send two. I love the memories we’ve made, especially that night in Baroda when you cared for me while I was unwell. You made me feel safe in a way I’ll never forget.\n\nMy wish for you is that every bit of positivity and kindness you give to others comes back to you a hundred times over. May your CA dreams come true, may your CA Final go wonderfully, and may you get every opportunity and happiness you deserve. I’m manifesting the day I get to call you my CA and the day you take me on our international vacation—yes, I’m already claiming it!\n\nIf you think I didn't notice, I did. The way you made time, even when you were busy. The patience you showed in moments I didn't deserve it. The quiet presence that reminded me I wasn't alone. The consistency of your care, even in silence. I may not have always said it out loud, but I saw it all, and I felt it.\n\nBecause sometimes, it's not the grand gestures, but the smallest, gentlest acts that leave the biggest mark.\n\nThank you for being you: my comfort, my laughter, my safe place, and my favourite person to annoy lovingly. I hope this year brings you closer to every dream you’ve ever had. You deserve so much happiness, Babidaaa. Happy birthday, my Brownie. I love you more than this little website could ever fit into 30 messages. ♥"]
+];
+
+// Start calendar on Nov 4 at 12:00:00 AM Midnight
+const startDate = new Date(2026, 10, 4, 0, 0, 0); 
+const msDay = 86400000;
+
+function dayIndex() {
+  const now = Date.now();
+  if (now < startDate.getTime()) return -1; // Not reached Nov 4 midnight yet
+  const elapsed = now - startDate.getTime();
+  return Math.max(0, Math.min(29, Math.floor(elapsed / msDay)));
+}
+
+function dateLabel(i) {
+  const d = new Date(startDate.getTime() + i * msDay);
+  return d.toLocaleDateString(undefined, { month: "long", day: "numeric" }).toUpperCase();
+}
+
+function confetti(count = 90) {
+  const colors = ["#ff6b9a", "#b18cff", "#ffd166", "#7bdff2", "#f7a8c4"];
+  for (let i = 0; i < count; i++) {
+    let el = document.createElement("i");
+    el.className = "confetti";
+    el.style.left = Math.random() * 100 + "vw";
+    el.style.background = colors[Math.floor(Math.random() * colors.length)];
+    el.style.animationDuration = (2.5 + Math.random() * 3) + "s";
+    el.style.animationDelay = Math.random() * 0.6 + "s";
+    el.style.transform = `rotate(${Math.random() * 360}deg)`;
+    document.body.appendChild(el);
+    setTimeout(() => el.remove(), 6500);
+  }
+}
+
+function showNote(i) {
+  const currentAvailable = dayIndex();
+  if (i < 0 || i > currentAvailable) {
+    const unlockDateStr = dateLabel(i);
+    document.getElementById("message-day").textContent = `LOCKED · UNLOCKS ${unlockDateStr}`;
+    document.getElementById("message-title").textContent = "Come back at Midnight! 💗";
+    document.getElementById("message-text").textContent = `This little love note unlocks at 12:00 AM Midnight on ${unlockDateStr}. No peeking early, Babidaa! Come back then for another reason to smile.\n\nLove, your Gatyo ♥`;
+    document.getElementById("status").textContent = `Locked until 12:00 AM on ${unlockDateStr} 💕`;
+    return;
+  }
+  document.getElementById("message-day").textContent = `DAY ${i + 1} · ${dateLabel(i)}`;
+  document.getElementById("message-title").textContent = notes[i][0];
+  document.getElementById("message-text").textContent = notes[i][1];
+  document.getElementById("status").textContent = `Note ${i + 1} of 30, opened with love.`;
+  confetti(35);
+}
+
+function renderDays() {
+  const grid = document.getElementById("days-grid");
+  grid.innerHTML = "";
+  const currentIdx = dayIndex();
+  const unlockedCount = Math.max(0, currentIdx + 1);
+
+  for (let i = 0; i < 30; i++) {
+    const b = document.createElement("button");
+    const isUnlocked = i <= currentIdx;
+    b.className = "day" + (isUnlocked ? " unlocked" : "") + (i === currentIdx ? " current" : "");
+    b.textContent = i + 1;
+    b.disabled = !isUnlocked;
+    b.title = isUnlocked ? `Revisit note ${i + 1}` : `Unlocks at Midnight on ${dateLabel(i)}`;
+    
+    // Clicking any unlocked day loads that specific note!
+    b.addEventListener("click", () => showNote(i));
+    grid.appendChild(b);
+  }
+  document.getElementById("progress-label").textContent = `${unlockedCount} / 30 opened`;
+  document.getElementById("progress").style.width = (unlockedCount / 30 * 100) + "%";
+}
+
+function updateCountdown() {
+  const currentNow = new Date();
+  let target = new Date(2026, 11, 4, 0, 0, 0); // Dec 4 Midnight
+  if (currentNow >= target) {
+    target = new Date(currentNow.getFullYear() + 1, 11, 4, 0, 0, 0);
+  }
+  let diff = Math.max(0, target - currentNow);
+  const d = Math.floor(diff / msDay);
+  diff -= d * msDay;
+  const h = Math.floor(diff / 3600000);
+  diff -= h * 3600000;
+  const m = Math.floor(diff / 60000);
+  diff -= m * 60000;
+  const s = Math.floor(diff / 1000);
+
+  document.getElementById("days").textContent = d;
+  document.getElementById("hours").textContent = h;
+  document.getElementById("minutes").textContent = m;
+  document.getElementById("seconds").textContent = s;
+  document.getElementById("countdown-caption").textContent = `${d} ${d === 1 ? "day" : "days"} until December 4. Every second brings us closer!`;
+}
+
+document.getElementById("open-today").addEventListener("click", () => {
+  const i = dayIndex();
+  if (i < 0) {
+    document.getElementById("message-day").textContent = "COMING SOON 💌";
+    document.getElementById("message-title").textContent = "Unlocks Midnight Nov 4 💗";
+    document.getElementById("message-text").textContent = "Your very first note unlocks at 12:00 AM Midnight on November 4! No peeking early, Brownie! Come back at midnight and let your Gatyo spoil you. ♥";
+    document.getElementById("status").textContent = "Unlocks Nov 4 at 12:00 AM Midnight! 💕";
+  } else {
+    showNote(i);
+  }
+});
+
+document.getElementById("surprise").addEventListener("click", () => {
+  confetti(140);
+  document.getElementById("status").textContent = "SURPRISE! You’re appreciated more than this little website could ever explain. 🥹💖";
+});
+
+renderDays();
+updateCountdown();
+setInterval(() => {
+  updateCountdown();
+  renderDays();
+}, 1000);
+
+if (dayIndex() >= 0) {
+  showNote(dayIndex());
+} else {
+  document.getElementById("message-day").textContent = "COMING SOON 💌";
+  document.getElementById("message-title").textContent = "Unlocks Midnight Nov 4";
+  document.getElementById("message-text").textContent = "30 reasons why you’re my favourite person, my Babidaa. Your first note unlocks at 12:00 AM Midnight on November 4! ♥";
+}
+</script>
+</body>
+</html>
